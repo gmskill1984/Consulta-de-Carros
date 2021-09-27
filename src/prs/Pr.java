@@ -58,7 +58,7 @@ public class Pr extends javax.swing.JFrame {
         File f = new File("c:\\pr\\config.txt");
 
         // Check if the specified file 
-        // Exists or not 
+        // Exists or not in project
         if (f.exists()) {
             ler_config();
         } else {
